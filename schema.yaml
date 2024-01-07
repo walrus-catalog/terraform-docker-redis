@@ -92,6 +92,9 @@ components:
           type: object
           description: |
             Specify the computing resources.
+          default:
+            cpu: 0.25
+            memory: 1024
           nullable: true
           properties:
             cpu:
